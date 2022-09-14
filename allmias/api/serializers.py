@@ -8,4 +8,4 @@ class MamographySerializer(serializers.ModelSerializer):
     image = serializers.ImageField(use_url=True)
     class Meta:
         model = Mamography
-        fields = ['id','etiqueta','image']
+        fields = ['etiqueta','image']

@@ -7,4 +7,5 @@ router = routers.SimpleRouter()
 router.register('mamography',viewsets.MamographyViewSet)
 urlpatterns = [
     path('api/',include(router.urls)),
+
 ]
